@@ -49,10 +49,8 @@
  ![write_curve](https://user-images.githubusercontent.com/69419719/89882892-14223000-dbe5-11ea-9fa9-93ba38815ee1.PNG)
  
  
- 
- 
-
- 
  ## Precharge Circuit
+ ![prcharge_circuit](https://user-images.githubusercontent.com/69419719/89883288-9579c280-dbe5-11ea-9824-6ffe2f4e9039.PNG)
+ 
  ## Sense Amplifier
  ## Write Driver
