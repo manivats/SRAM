@@ -42,6 +42,13 @@
  
  Below are the circuits and curves for hold , read and write case without feedback connections.
  
+ ### Read Curve
+ ![read_curve](https://user-images.githubusercontent.com/69419719/89881956-c6f18e80-dbe3-11ea-825c-6ff588e449fc.PNG)
+ 
+ ### Write Curve
+ 
+ 
+ 
  
 
  
