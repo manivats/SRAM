@@ -38,25 +38,30 @@
  - Required larger area.
  
  ## Bitcell
- ![bitcell](https://user-images.githubusercontent.com/69419719/89881164-bf7db580-dbe2-11ea-8673-a803f829fabc.PNG)
+
  
+![bitcell](https://user-images.githubusercontent.com/69419719/89906113-996b0c00-dc08-11ea-8896-fc0470bd273f.PNG)
+
  Below are the circuits and curves for hold , read and write case without feedback connections.
  
  ### Read Curve
- ![read_curve](https://user-images.githubusercontent.com/69419719/89881956-c6f18e80-dbe3-11ea-825c-6ff588e449fc.PNG)
+ 
+ ![read_cir_curve](https://user-images.githubusercontent.com/69419719/89909295-89edc200-dc0c-11ea-9f9a-d806897353f2.PNG)
  
  ### Write Curve
- ![write_curve](https://user-images.githubusercontent.com/69419719/89882892-14223000-dbe5-11ea-9fa9-93ba38815ee1.PNG)
+ 
+ ![write_cir _curve](https://user-images.githubusercontent.com/69419719/89909305-8c501c00-dc0c-11ea-8db6-184161ff8110.PNG)
  
  
  ## Precharge Circuit
- ![prcharge_circuit](https://user-images.githubusercontent.com/69419719/89883288-9579c280-dbe5-11ea-9824-6ffe2f4e9039.PNG)
+ ![precharge](https://user-images.githubusercontent.com/69419719/89909294-89edc200-dc0c-11ea-8f4b-48fff17b5cbb.PNG)
+ 
  
  ## Sense Amplifier
  ## Write Driver
+ ![write_driver](https://user-images.githubusercontent.com/69419719/89909307-8c501c00-dc0c-11ea-8ef9-d22f875c1ce1.PNG)
  
- ![write driver](https://user-images.githubusercontent.com/69419719/89905157-73913780-dc07-11ea-8474-6900036f5213.PNG)
  
  ## Trigate 
  
- ![trigate](https://user-images.githubusercontent.com/69419719/89897705-11cbd000-dbfd-11ea-8a53-26442a6b00dd.PNG)
+ ![trigate](https://user-images.githubusercontent.com/69419719/89909302-8bb78580-dc0c-11ea-86f3-6abc316a718f.PNG)
