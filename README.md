@@ -38,6 +38,13 @@
  - Required larger area.
  
  ## Bitcell
+ ![bitcell](https://user-images.githubusercontent.com/69419719/89881164-bf7db580-dbe2-11ea-8673-a803f829fabc.PNG)
+ 
+ Below are the circuits and curves for hold , read and write case without feedback connections.
+ 
+ 
+
+ 
  ## Precharge Circuit
  ## Sense Amplifier
  ## Write Driver
