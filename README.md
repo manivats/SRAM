@@ -54,3 +54,6 @@
  
  ## Sense Amplifier
  ## Write Driver
+ ## Trigate 
+ 
+ ![trigate](https://user-images.githubusercontent.com/69419719/89897705-11cbd000-dbfd-11ea-8a53-26442a6b00dd.PNG)
