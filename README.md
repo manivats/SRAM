@@ -46,6 +46,7 @@
  ![read_curve](https://user-images.githubusercontent.com/69419719/89881956-c6f18e80-dbe3-11ea-825c-6ff588e449fc.PNG)
  
  ### Write Curve
+ ![write_curve](https://user-images.githubusercontent.com/69419719/89882892-14223000-dbe5-11ea-9fa9-93ba38815ee1.PNG)
  
  
  
