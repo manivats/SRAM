@@ -1,0 +1,24 @@
+.title KiCad schematic
+M4  dbg  vdd  vdd  vdd eSim_MOS_P
+M7 Net-_M7-Pad1_  din GND GND eSim_MOS_N
+M8  dbg  vdd Net-_M7-Pad1_ GND eSim_MOS_N
+M10  dbg  din  vdd  vdd eSim_MOS_P
+M9  dg  dinb  vdd  vdd eSim_MOS_P
+M6  dg  vdd Net-_M5-Pad1_ GND eSim_MOS_N
+M5 Net-_M5-Pad1_  dinb GND GND eSim_MOS_N
+M12  bblb  dbg  vdd  vdd eSim_MOS_P
+M11  bblb  dbg GND GND eSim_MOS_N
+M14  bbl  dg  vdd  vdd eSim_MOS_P
+M13  bbl  dg GND GND eSim_MOS_N
+M15  blb  bblb GND GND eSim_MOS_N
+M16  bl  bbl GND GND eSim_MOS_N
+M1  dinb  din  vdd  vdd eSim_MOS_P
+M2  dinb  din GND GND eSim_MOS_N
+v2  vdd GND DC
+U1  blb  bl PORT
+M3  dg  vdd  vdd  vdd eSim_MOS_P
+v1  din GND pulse
+M17  bl  pr_en  vdd  vdd eSim_MOS_P
+M18  blb  pr_en  vdd  vdd eSim_MOS_P
+v3  pr_en GND pwl
+.end

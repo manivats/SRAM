@@ -1,0 +1,17 @@
+.title KiCad schematic
+M3  q1  qb1  p GND eSim_MOS_N
+M5  qb1  q1  p GND eSim_MOS_N
+M2  q1  qb1  vdd  vdd eSim_MOS_P
+M6  qb1  q1  vdd  vdd eSim_MOS_P
+M4  p  en GND GND eSim_MOS_N
+M7  blb  en  qb1  vdd eSim_MOS_P
+v3  vdd GND 1.8v
+v2  en GND pulse
+U5  qb1 plot_v1
+M1  bl  en  q1  vdd eSim_MOS_P
+U4  q1 plot_v1
+C1  q1 GND 1f
+C2  qb1 GND 1f
+v1  bl GND pwl
+v4  blb GND pwl
+.end
