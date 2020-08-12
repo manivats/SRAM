@@ -3,6 +3,14 @@
  The project is a description of all the necessary components used in making 1-bit 6T-SRAM cell and their analysis using the tool ESIM.
  
  ## Contents
+ - Definition
+ - Bitcell
+ - Precharge Circuit
+ - Sense Amplifier
+ - Write Driver
+ - Trigate 
+ - Read operation
+ 
  
  ## Definition
  SRAM (Static Random Access Memory)
@@ -14,6 +22,7 @@
  - Sense Amplifier
  - Write Driver
  - Precharge circuit
+ 
  
  ## Modes of Operation
  
@@ -65,6 +74,15 @@
  
  ![write curve](https://user-images.githubusercontent.com/69419719/89974250-200f0000-dc80-11ea-93c6-528ad29c0cb9.PNG)
  
+ ### SNM calculated table
+ 
+ | NMOS | PMOS | ACCESS | HOLD SNM | READ SNM |
+ | --- | --- | --- | ---| --- |
+ | 0.44u | 0.28u | 0.35u | 0.6v | 0.3v |
+ | 0.44u | 0.88u | 0.35u | 0.75v | 0.36v |
+ | 0.7u | 0.35u | 0.35u | 0.61v | 0.35v | 
+ | 0.36u | 0.9u | 0.27u | 0.6v | 0.4v |
+ | 1.20u | 0.66u | 0.60u | 0.62v | 0.38v |
  
  ## Precharge Circuit
  ![precharge](https://user-images.githubusercontent.com/69419719/89909294-89edc200-dc0c-11ea-8f4b-48fff17b5cbb.PNG)
@@ -110,3 +128,15 @@
 ![bl_blb](https://user-images.githubusercontent.com/69419719/89995628-5a3fc800-dca7-11ea-8579-f182a5a2799e.PNG)
 ![en](https://user-images.githubusercontent.com/69419719/89995636-5ad85e80-dca7-11ea-92b8-457668c970f0.PNG)
 ![q1 qb1](https://user-images.githubusercontent.com/69419719/89995639-5c098b80-dca7-11ea-903c-19cd5933158f.PNG)
+
+
+# Contributors
+- Manisha Vats
+- Kunal Ghosh
+- Philipp Gühring
+
+# Contact Information
+- Manisha Vats, M.Tech(VLSI Design),CDAC,Noida vatsm1105@gmail.com
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+- Philipp Gühring, Software Architect, LibreSilicon Assocation pg@futureware.at
+
