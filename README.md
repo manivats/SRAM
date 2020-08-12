@@ -57,6 +57,14 @@
  
  ![hold_cir](https://user-images.githubusercontent.com/69419719/89983647-8a7e6b00-dc95-11ea-91e1-c7b83f5f962e.PNG)
 
+
+
+Type the following command in the `ngspice window`
+``` html
+plot qb vs q q vs q1
+
+
+
 ![hold_curve](https://user-images.githubusercontent.com/69419719/89974244-1daca600-dc80-11ea-9a4b-7400266d459d.PNG)
 
  
@@ -111,8 +119,6 @@
  
  ![trigate](https://user-images.githubusercontent.com/69419719/89909302-8bb78580-dc0c-11ea-86f3-6abc316a718f.PNG)
  
-##### Waveform
-
 ![in in_iv](https://user-images.githubusercontent.com/69419719/89972403-6746c200-dc7b-11ea-8578-c7bffbfbd2ae.PNG)
 ![en enb](https://user-images.githubusercontent.com/69419719/89972401-66159500-dc7b-11ea-969c-4ba89dabdd96.PNG)
 ![out](https://user-images.githubusercontent.com/69419719/89972405-67df5880-dc7b-11ea-861e-766465236cd5.PNG)
