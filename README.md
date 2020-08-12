@@ -88,4 +88,11 @@
 ### Read Operation
 
 ![half_read](https://user-images.githubusercontent.com/69419719/89994671-14363480-dca6-11ea-9c7a-f0008b7efd56.PNG)
-           ![2half_read](https://user-images.githubusercontent.com/69419719/89994667-13050780-dca6-11ea-9ef6-80bc2060db38.PNG) 
+ ![2half_read](https://user-images.githubusercontent.com/69419719/89994667-13050780-dca6-11ea-9ef6-80bc2060db38.PNG) 
+ 
+ ![wl pr_en](https://user-images.githubusercontent.com/69419719/89995643-5ca22200-dca7-11ea-927e-1817bb162570.PNG)
+ ![q qb](https://user-images.githubusercontent.com/69419719/89995637-5b70f500-dca7-11ea-8119-90072cc0f241.PNG)
+ 
+![bl_blb](https://user-images.githubusercontent.com/69419719/89995628-5a3fc800-dca7-11ea-8579-f182a5a2799e.PNG)
+![en](https://user-images.githubusercontent.com/69419719/89995636-5ad85e80-dca7-11ea-92b8-457668c970f0.PNG)
+![q1 qb1](https://user-images.githubusercontent.com/69419719/89995639-5c098b80-dca7-11ea-903c-19cd5933158f.PNG)
