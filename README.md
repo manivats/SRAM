@@ -101,8 +101,8 @@
 
 ### Read Operation
 
-![half_read](https://user-images.githubusercontent.com/69419719/89994671-14363480-dca6-11ea-9c7a-f0008b7efd56.PNG)
- ![2half_read](https://user-images.githubusercontent.com/69419719/89994667-13050780-dca6-11ea-9ef6-80bc2060db38.PNG) 
+![1half_read](https://user-images.githubusercontent.com/69419719/90018622-d5ff3c00-dcca-11ea-8ce3-e903534c6029.PNG)
+![2half_read](https://user-images.githubusercontent.com/69419719/90018617-d4ce0f00-dcca-11ea-9581-38bc5353a5ee.PNG)
  
  ![wl pr_en](https://user-images.githubusercontent.com/69419719/89995643-5ca22200-dca7-11ea-927e-1817bb162570.PNG)
  ![q qb](https://user-images.githubusercontent.com/69419719/89995637-5b70f500-dca7-11ea-8119-90072cc0f241.PNG)
