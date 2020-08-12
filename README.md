@@ -68,6 +68,9 @@
  
  ## Precharge Circuit
  ![precharge](https://user-images.githubusercontent.com/69419719/89909294-89edc200-dc0c-11ea-8f4b-48fff17b5cbb.PNG)
+ ![pr_en](https://user-images.githubusercontent.com/69419719/90015857-cbdb3e80-dcc6-11ea-8c53-51c1a65f08ca.PNG)
+ ![bl](https://user-images.githubusercontent.com/69419719/90015848-caaa1180-dcc6-11ea-806f-c7c54e6ffa86.PNG)
+ ![blb](https://user-images.githubusercontent.com/69419719/90015851-cb42a800-dcc6-11ea-98f7-c033d9de7f04.PNG)
  
  
  ## Sense Amplifier
