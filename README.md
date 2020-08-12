@@ -61,7 +61,7 @@
 
 Type the following command in the `ngspice window`
 ``` html
-plot qb vs q q vs q1
+plot qb vs q q vs q1();
 
 
 
