@@ -44,15 +44,22 @@
 
  Below are the circuits and curves for hold , read and write case without feedback connections.
  
+
+![hold_curve](https://user-images.githubusercontent.com/69419719/89974244-1daca600-dc80-11ea-9a4b-7400266d459d.PNG)
+ 
  
  
  ### Read Curve
  
  ![read_cir_curve](https://user-images.githubusercontent.com/69419719/89909295-89edc200-dc0c-11ea-9f9a-d806897353f2.PNG)
  
+ ![read_curve](https://user-images.githubusercontent.com/69419719/89974247-1f766980-dc80-11ea-848b-42c2e3538698.PNG)
+ 
  ### Write Curve
  
  ![write_cir _curve](https://user-images.githubusercontent.com/69419719/89909305-8c501c00-dc0c-11ea-8db6-184161ff8110.PNG)
+ 
+ ![write curve](https://user-images.githubusercontent.com/69419719/89974250-200f0000-dc80-11ea-93c6-528ad29c0cb9.PNG)
  
  
  ## Precharge Circuit
