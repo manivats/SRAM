@@ -62,7 +62,7 @@
 Type the following command in the `ngspice window`
 ``` html
 plot qb vs q q vs q1();
-
+```
 
 
 ![hold_curve](https://user-images.githubusercontent.com/69419719/89974244-1daca600-dc80-11ea-9a4b-7400266d459d.PNG)
