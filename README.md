@@ -71,6 +71,13 @@
  
  
  ## Sense Amplifier
+ 
+ 
+ ![bl_blb](https://user-images.githubusercontent.com/69419719/90009086-0e971980-dcbb-11ea-8f0d-e65747a38063.PNG)
+ ![en](https://user-images.githubusercontent.com/69419719/90009087-0f2fb000-dcbb-11ea-9a5e-39a8b849e9b0.PNG)
+ ![q1_qb1](https://user-images.githubusercontent.com/69419719/90009082-0ccd5600-dcbb-11ea-8ee8-53610a054c23.PNG)
+ 
+ 
  ## Write Driver
  ![write_driver](https://user-images.githubusercontent.com/69419719/89909307-8c501c00-dc0c-11ea-8ef9-d22f875c1ce1.PNG)
  
