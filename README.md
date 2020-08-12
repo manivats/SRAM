@@ -81,6 +81,10 @@
  ## Write Driver
  ![write_driver](https://user-images.githubusercontent.com/69419719/89909307-8c501c00-dc0c-11ea-8ef9-d22f875c1ce1.PNG)
  
+ ![din_dinb](https://user-images.githubusercontent.com/69419719/90015385-29bb5680-dcc6-11ea-94db-4ecc9c3a5e58.PNG)
+ ![bbl bblb](https://user-images.githubusercontent.com/69419719/90015378-288a2980-dcc6-11ea-8cd3-ca3cb1796cea.PNG)
+ ![pr_en](https://user-images.githubusercontent.com/69419719/90015386-2a53ed00-dcc6-11ea-8728-20b5f71cf297.PNG)
+ ![bl_blb](https://user-images.githubusercontent.com/69419719/90015381-2922c000-dcc6-11ea-9705-7ea55b53599e.PNG)
  
  ## Trigate 
  
