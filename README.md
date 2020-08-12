@@ -71,7 +71,7 @@
  
  
  ## Sense Amplifier
- 
+ ![sense_amp](https://user-images.githubusercontent.com/69419719/90015170-de08ad00-dcc5-11ea-8919-000ffcd64db9.PNG)
  
  ![bl_blb](https://user-images.githubusercontent.com/69419719/90009086-0e971980-dcbb-11ea-8f0d-e65747a38063.PNG)
  ![en](https://user-images.githubusercontent.com/69419719/90009087-0f2fb000-dcbb-11ea-9a5e-39a8b849e9b0.PNG)
