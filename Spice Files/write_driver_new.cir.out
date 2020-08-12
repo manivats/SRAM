@@ -1,0 +1,35 @@
+.title kicad schematic
+
+.include pmos_osu180.lib
+.include nmos_osu180.lib
+m4 dbg vdd vdd vdd pfet W=0.63u L=0.18u M=1
+m7 net-_m7-pad1_ din gnd gnd nfet W=0.36u L=0.18u M=1
+m8 dbg vdd net-_m7-pad1_ gnd nfet W=0.36u L=0.18u M=1
+m10 dbg din vdd vdd pfet W=0.63u L=0.18u M=1
+m9 dg dinb vdd vdd pfet W=0.63u L=0.18u M=1
+m6 dg vdd net-_m5-pad1_ gnd nfet W=0.36u L=0.18u M=1
+m5 net-_m5-pad1_ dinb gnd gnd nfet W=0.36u L=0.18u M=1
+m12 bblb dbg vdd vdd pfet W=0.63u L=0.18u M=1
+m11 bblb dbg gnd gnd nfet W=0.36u L=0.18u M=1
+m14 bbl dg vdd vdd pfet W=0.63u L=0.18u M=1
+m13 bbl dg gnd gnd nfet W=0.36u L=0.18u M=1
+m15 blb bblb gnd gnd nfet W=1.08u L=0.18u M=1
+m16 bl bbl gnd gnd nfet W=1.08u L=0.18u M=1
+m1 dinb din vdd vdd pfet W=0.63u L=0.18u M=1
+m2 dinb din gnd gnd nfet W=0.36u L=0.18u M=1
+v2 vdd gnd  dc 1.8
+* u1  blb  bl port
+m3 dg vdd vdd vdd pfet W=0.63u L=0.18u M=1
+v1  din gnd pulse(0 1.8 0.1n 0.2n 0.2n 25n 50n)
+m17 bl pr_en vdd vdd pfet W=0.135u L=0.18u M=1
+m18 blb pr_en vdd vdd pfet W=0.135u L=0.18u M=1
+v3  pr_en gnd pwl(0n 0 0.5n 0  40n 0 40.5n 0 50n 0 50.5n 0 100n 0)
+.tran 10e-09 100e-09 0e-09
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end
