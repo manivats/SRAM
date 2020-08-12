@@ -87,4 +87,5 @@
 
 ### Read Operation
 
-
+![half_read](https://user-images.githubusercontent.com/69419719/89994671-14363480-dca6-11ea-9c7a-f0008b7efd56.PNG)
+           ![2half_read](https://user-images.githubusercontent.com/69419719/89994667-13050780-dca6-11ea-9ef6-80bc2060db38.PNG) 
