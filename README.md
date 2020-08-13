@@ -21,11 +21,13 @@
  
  It is a random access memory that has a access time independent of the physical location of the data.
  
- The main components are:-
+ Blocks required to make SRAM are:-
  - Bitcell	 
  - Sense Amplifier
  - Write Driver
  - Precharge circuit
+ - Master slave DFF
+ - Trigate
  
  
  ## Modes of Operation
@@ -49,13 +51,16 @@
  
  - Uses more power 
  - Required larger area.
+ ### To see the waveform perform following steps
+ 1. After downloading the esim open the terminal
+ 2. Move to the directory using `cd Folder_name` where you want to clone the repository.
+ 3.Type `git clone 
  
  ## Bitcell
 
- 
 ![bitcell](https://user-images.githubusercontent.com/69419719/89906113-996b0c00-dc08-11ea-8896-fc0470bd273f.PNG)
 
- Below are the circuits and curves for hold , read and write case without feedback connections.
+ Below are the circuits and curves for hold , read and write mode without feedback connections to calculate SNM.
  
  ### Hold Mode
  
