@@ -167,7 +167,12 @@ plot q1 qb1
  
  ## Write Driver
  ![write_driver](https://user-images.githubusercontent.com/69419719/89909307-8c501c00-dc0c-11ea-8ef9-d22f875c1ce1.PNG)
-   
+ 
+ ###### Block diagram of writer with precharge circuit
+ ![write_with_pre](https://user-images.githubusercontent.com/69419719/90110804-6b520d00-dd6b-11ea-8f60-4f92018501ed.PNG)
+
+ 
+ 
    Type the following command after this `ngspice ->` in terminal
 ``` html
 write_driver.cir.out
@@ -199,9 +204,16 @@ plot out
 
 ### Read Operation
 
+###### Block diagram of read operation
+![block_dia_readop](https://user-images.githubusercontent.com/69419719/90110812-6c833a00-dd6b-11ea-97ff-33aa02948a5b.PNG)
+ 
 
+###### Circuit diagram is in two parts
 
+PART-1
 ![1half_read](https://user-images.githubusercontent.com/69419719/90018622-d5ff3c00-dcca-11ea-8ce3-e903534c6029.PNG)
+
+PART-2
 ![2half_read](https://user-images.githubusercontent.com/69419719/90018617-d4ce0f00-dcca-11ea-9581-38bc5353a5ee.PNG)
 
 
