@@ -1,0 +1,40 @@
+.title kicad schematic
+
+.include pmos_osu180.lib
+.include nmos_osu180.lib
+v4  wl gnd pwl(0n 0 0.5n 1.8 200n 1.8 )
+m2 q wl bl gnd nfet W=0.6u L=0.18u M=1
+m14 qb wl blb gnd nfet W=0.6u L=0.18u M=1
+v3  vdd gnd 1.8v
+m9 qb q gnd gnd nfet W=1.20u L=0.18u M=1
+m7 q qb gnd gnd nfet W=1.20u L=0.18u M=1
+m11 qb q vdd vdd pfet W=0.66u L=0.18u M=1
+m6 q qb vdd vdd pfet W=0.66u L=0.18u M=1
+m5 q1 qb1 p gnd nfet W=0.81u L=0.18u M=1
+m10 qb1 q1 p gnd nfet W=0.81u L=0.18u M=1
+m4 q1 qb1 vdd vdd pfet W=1.62u L=0.18u M=1
+m12 qb1 q1 vdd vdd pfet W=1.62u L=0.18u M=1
+m8 p en gnd gnd nfet W=0.81u L=0.18u M=1
+m15 blb en qb1 vdd pfet W=0.2u L=0.18u M=1
+v2  en gnd pulse(0 1.8 20.5n 100p 100p 20n 40n)
+* u2  qb1 plot_v1
+m1 bl en q1 vdd pfet W=0.2u L=0.18u M=1
+c2  q1 gnd 1f
+c3  qb1 gnd 1f
+* u1  q1 plot_v1
+m13 blb pr_en vdd vdd pfet W=0.135u L=0.18u M=1
+m3 bl pr_en vdd vdd pfet W=0.135u L=0.18u M=1
+v5  pr_en gnd pwl(0n 0 200n 0)
+v6  qb gnd pulse(0 1.8 40.5n 100p 100p 40n 80n)
+v1  q gnd pulse(0 1.8 0.5n 100p 100p 40n 80n)
+.tran 10e-09 200e-09 0e-09
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(qb1)
+plot v(q1)
+.endc
+.end
