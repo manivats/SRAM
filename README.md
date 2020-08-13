@@ -130,8 +130,7 @@ pre_charge.cir.out
 plot pr_en
 plot bl
 plot blb
-``` 
- 
+```  
  ![pr_en](https://user-images.githubusercontent.com/69419719/90015857-cbdb3e80-dcc6-11ea-8c53-51c1a65f08ca.PNG)
  ![bl](https://user-images.githubusercontent.com/69419719/90015848-caaa1180-dcc6-11ea-806f-c7c54e6ffa86.PNG)
  ![blb](https://user-images.githubusercontent.com/69419719/90015851-cb42a800-dcc6-11ea-98f7-c033d9de7f04.PNG)
@@ -140,6 +139,14 @@ plot blb
  ## Sense Amplifier
  ![sense_amp](https://user-images.githubusercontent.com/69419719/90015170-de08ad00-dcc5-11ea-8919-000ffcd64db9.PNG)
  
+   Type the following command after this `ngspice-->` in terminal
+``` html
+sense_amplifier.cir.out
+plot bl blb
+plot en
+plot q1 qb1
+```
+ 
  ![bl_blb](https://user-images.githubusercontent.com/69419719/90009086-0e971980-dcbb-11ea-8f0d-e65747a38063.PNG)
  ![en](https://user-images.githubusercontent.com/69419719/90009087-0f2fb000-dcbb-11ea-9a5e-39a8b849e9b0.PNG)
  ![q1_qb1](https://user-images.githubusercontent.com/69419719/90009082-0ccd5600-dcbb-11ea-8ee8-53610a054c23.PNG)
@@ -147,7 +154,15 @@ plot blb
  
  ## Write Driver
  ![write_driver](https://user-images.githubusercontent.com/69419719/89909307-8c501c00-dc0c-11ea-8ef9-d22f875c1ce1.PNG)
- 
+   
+   Type the following command after this `ngspice-->` in terminal
+``` html
+write_driver.cir.out
+plot din_dinb
+plot bbl bblb
+plot pr_en
+plot bl blb
+```
  ![din_dinb](https://user-images.githubusercontent.com/69419719/90015385-29bb5680-dcc6-11ea-94db-4ecc9c3a5e58.PNG)
  ![bbl bblb](https://user-images.githubusercontent.com/69419719/90015378-288a2980-dcc6-11ea-8cd3-ca3cb1796cea.PNG)
  ![pr_en](https://user-images.githubusercontent.com/69419719/90015386-2a53ed00-dcc6-11ea-8728-20b5f71cf297.PNG)
@@ -157,6 +172,14 @@ plot blb
  
  ![trigate](https://user-images.githubusercontent.com/69419719/89909302-8bb78580-dc0c-11ea-86f3-6abc316a718f.PNG)
  
+   Type the following command after this `ngspice-->` in terminal
+``` html
+trigate.cir.out
+plot in in_inv
+plot en enb
+plot out
+```
+ 
 ![in in_iv](https://user-images.githubusercontent.com/69419719/89972403-6746c200-dc7b-11ea-8578-c7bffbfbd2ae.PNG)
 ![en enb](https://user-images.githubusercontent.com/69419719/89972401-66159500-dc7b-11ea-969c-4ba89dabdd96.PNG)
 ![out](https://user-images.githubusercontent.com/69419719/89972405-67df5880-dc7b-11ea-861e-766465236cd5.PNG)
@@ -165,6 +188,17 @@ plot blb
 
 ![1half_read](https://user-images.githubusercontent.com/69419719/90018622-d5ff3c00-dcca-11ea-8ce3-e903534c6029.PNG)
 ![2half_read](https://user-images.githubusercontent.com/69419719/90018617-d4ce0f00-dcca-11ea-9581-38bc5353a5ee.PNG)
+
+
+  Type the following command after this `ngspice-->` in terminal
+``` html
+read_operation.cir.out
+plot wl pr_en
+plot q qb
+plot bl blb
+plot en
+plot q1 qb1
+```
  
  ![wl pr_en](https://user-images.githubusercontent.com/69419719/89995643-5ca22200-dca7-11ea-927e-1817bb162570.PNG)
  ![q qb](https://user-images.githubusercontent.com/69419719/89995637-5b70f500-dca7-11ea-8119-90072cc0f241.PNG)
