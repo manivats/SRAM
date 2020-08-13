@@ -123,7 +123,7 @@ SNM helps us to analyse the stability of SRAM.It is defined as the least noise v
 
  ### SNM calculated table
  
- | NMOS | PMOS | ACCESS | HOLD SNM | READ SNM |
+ | NMOS (W) | PMOS (W) | ACCESS (w) | HOLD SNM | READ SNM |
  | --- | --- | --- | ---| --- |
  | 0.44u | 0.28u | 0.35u | 0.6v | 0.3v |
  | 0.44u | 0.88u | 0.35u | 0.75v | 0.36v |
