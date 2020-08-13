@@ -1,7 +1,8 @@
  # SRAM(1024x32): (32kbits or 4KB), 1.8V and access time is <2.5ns
  
  The project is a description of all the necessary components used in making 1-bit 6T-SRAM cell and their analysis using the tool ESIM.
- Steps to Download esim
+
+Steps to Download esim
  1. For download [Click here](https://esim.fossee.in/downloads)
  2. Installation guide for Linux [Click here](https://script.spoken-tutorial.org/index.php/ESim/C2/Getting-started-with-eSim-Linux-installation/English)
  3. Installation guide for Windows [Click here](https://script.spoken-tutorial.org/index.php/ESim/C2/Getting-started-with-eSim-Windows-installation/English)
