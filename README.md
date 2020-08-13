@@ -3,13 +3,13 @@
  The project is a description of all the necessary components used in making 1-bit 6T-SRAM cell and their analysis using the tool ESIM.
  
  ## Contents
- - [Definition](https://github.com/manivats/SRAM-/edit/master/README.md)
- - [Bitcell](https://github.com/manivats/SRAM-/edit/master/README.md)
- - [Precharge Circuit](https://github.com/manivats/SRAM-/edit/master/README.md)
- - [Sense Amplifier](https://github.com/manivats/SRAM-/edit/master/README.md)
- - [Write Driver](https://github.com/manivats/SRAM-/edit/master/README.md)
- - [Trigate](https://github.com/manivats/SRAM-/edit/master/README.md) 
- - [Read operation](https://github.com/manivats/SRAM-/edit/master/README.md)
+ - [Definition](https://github.com/manivats/SRAM)
+ - [Bitcell](https://github.com/manivats/SRAM)
+ - [Precharge Circuit](https://github.com/manivats/SRAM)
+ - [Sense Amplifier](https://github.com/manivats/SRAM)
+ - [Write Driver](https://github.com/manivats/SRAM)
+ - [Trigate](https://github.com/manivats/SRAM) 
+ - [Read operation](https://github.com/manivats/SRAM)
  
  
  ## Definition
