@@ -199,6 +199,8 @@ plot out
 
 ### Read Operation
 
+
+
 ![1half_read](https://user-images.githubusercontent.com/69419719/90018622-d5ff3c00-dcca-11ea-8ce3-e903534c6029.PNG)
 ![2half_read](https://user-images.githubusercontent.com/69419719/90018617-d4ce0f00-dcca-11ea-9581-38bc5353a5ee.PNG)
 
