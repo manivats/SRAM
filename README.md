@@ -70,8 +70,9 @@
  
  ![hold_cir](https://user-images.githubusercontent.com/69419719/89983647-8a7e6b00-dc95-11ea-91e1-c7b83f5f962e.PNG)
 
-Type the following command in the `ngspice window`
+Type the following command after this `ngspice -->`in the terminal
 ``` html
+hold_curve.cir.out
 plot qb vs q q vs q1
 ```
 ![hold_curve](https://user-images.githubusercontent.com/69419719/89974244-1daca600-dc80-11ea-9a4b-7400266d459d.PNG)
@@ -80,8 +81,9 @@ plot qb vs q q vs q1
  
  ![read_cir_curve](https://user-images.githubusercontent.com/69419719/89909295-89edc200-dc0c-11ea-9f9a-d806897353f2.PNG)
  
- Type the following command in the `ngspice window`
+Type the following command after this `ngspice -->`in the terminal
 ``` html
+read_curve.cir.out
 plot qb vs q q vs q1
 ```
  ![read_curve](https://user-images.githubusercontent.com/69419719/89974247-1f766980-dc80-11ea-848b-42c2e3538698.PNG)
@@ -90,8 +92,10 @@ plot qb vs q q vs q1
  
  ![write_cir _curve](https://user-images.githubusercontent.com/69419719/89909305-8c501c00-dc0c-11ea-8db6-184161ff8110.PNG)
  
- Type the following command in the `ngspice window`
+ 
+Type the following command after this `ngspice -->`in the terminal
 ``` html
+write_curve.cir.out
 plot qb vs q q vs q1
 ``` 
  ![write curve](https://user-images.githubusercontent.com/69419719/89974250-200f0000-dc80-11ea-93c6-528ad29c0cb9.PNG)
