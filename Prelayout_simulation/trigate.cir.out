@@ -1,0 +1,33 @@
+.title kicad schematic
+
+.include pmos_osu180.lib
+.include nmos_osu180.lib
+m3 out en net-_m3-pad3_ gnd nfet W=0.36u L=0.18u M=1
+m4 net-_m3-pad3_ in_inv gnd gnd nfet W=0.36u L=0.18u M=1
+m1 in_inv in gnd gnd nfet W=0.36u L=0.18u M=1
+m5 net-_m5-pad1_ in_inv vdd vdd pfet W=0.72u L=0.18u M=1
+m6 out enb net-_m5-pad1_ vdd pfet W=0.72u L=0.18u M=1
+m2 in_inv in vdd vdd pfet W=0.72u L=0.18u M=1
+v2 vdd gnd  dc 1.8
+v1  in gnd pulse(0 1.8 0.5n 0.1n 0.1n 10n 20n)
+v3  enb gnd pulse(0 1.8 50.5n 0.1n 0.1n 50n 100n)
+v4  en gnd pulse(0 1.8 0.5n 0.1n 0.1n 50n 100n)
+* u1  in plot_v1
+* u2  in_inv plot_v1
+* u3  enb plot_v1
+* u4  en plot_v1
+* u5 out plot_v1
+.tran 10e-09 100e-09 0e-09
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+*plot v(in)
+*plot v(in_inv)
+*plot v(enb)
+*plot v(en)
+*plot v(out)
+.endc
+.end

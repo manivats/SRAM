@@ -1,0 +1,48 @@
+.title kicad schematic
+
+.include pmos_osu180.lib
+.include nmos_osu180.lib
+m6 qmb net-_m3-pad1_ vdd vdd pfet W=0.54u L=0.18u M=1
+m5 qmb net-_m3-pad1_ gnd gnd nfet W=0.27u L=0.18u M=1
+m10 qm qmb vdd vdd pfet W=0.54u L=0.18u M=1
+m8 qm qmb gnd gnd nfet W=0.27u L=0.18u M=1
+m14 qsb net-_m11-pad1_ vdd vdd pfet W=0.54u L=0.18u M=1
+m13 qsb net-_m11-pad1_ gnd gnd nfet W=0.27u L=0.18u M=1
+m18 qs qsb vdd vdd pfet W=0.54u L=0.18u M=1
+m17 qs qsb gnd gnd nfet W=0.27u L=0.18u M=1
+m15 net-_m11-pad1_ clk qs vdd pfet W=0.54u L=0.18u M=1
+m16 net-_m11-pad1_ clkb qs gnd nfet W=0.27u L=0.18u M=1
+m2 clkb clk vdd vdd pfet W=0.54u L=0.18u M=1
+m1 clkb clk gnd gnd nfet W=0.27u L=0.18u M=1
+v3 vdd gnd  dc 1.8
+m9 net-_m3-pad1_ clk qm gnd nfet W=0.27u L=0.18u M=1
+m7 net-_m3-pad1_ clkb qm vdd pfet W=0.54u L=0.18u M=1
+v2  clk gnd pulse(0 1.8 0n 0.5n 0.5n 10n 20n)
+m12 net-_m11-pad1_ clkb qm vdd pfet W=0.54u L=0.18u M=1
+v1  din gnd pwl(0n 0 35n 0 35.5n 1.8 75n 1.8 75.5n 0 120n 0)
+m4 net-_m3-pad1_ clk din vdd pfet W=0.54u L=0.18u M=1
+m3 net-_m3-pad1_ clkb din gnd nfet W=0.27u L=0.18u M=1
+m11 net-_m11-pad1_ clk qm gnd nfet W=0.27u L=0.18u M=1
+* u1  clk plot_v1
+* u2  din plot_v1
+* u4  qmb plot_v1
+* u5  qm plot_v1
+* u6  qsb plot_v1
+* u7  qs plot_v1
+* u3  clkb plot_v1
+.tran 10e-09 120e-09 0e-09
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+*plot v(clk)
+*plot v(din)
+*plot v(qmb)
+*plot v(qm)
+*plot v(qsb)
+*plot v(qs)
+*plot v(clkb)
+.endc
+.end

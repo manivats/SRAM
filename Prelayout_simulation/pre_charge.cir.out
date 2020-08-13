@@ -1,0 +1,20 @@
+.title kicad schematic
+
+.include pmos_osu180.lib
+m1 bl pr_en vdd vdd pfet W=0.135u L=0.18u M=1
+m3 blb pr_en vdd vdd pfet W=0.135u L=0.18u M=1
+v1 vdd gnd  dc 1.8
+v2  pr_en gnd pwl(0n 0 0.5n 1.8 50n 1.8 50.5n 0 100n 0)
+* u2  blb plot_v1
+* u1  bl plot_v1
+.tran 10e-09 100e-09 0e-09
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+*plot v(blb)
+*plot v(bl)
+.endc
+.end

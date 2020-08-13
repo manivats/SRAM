@@ -1,0 +1,21 @@
+.title kicad schematic
+
+.include pmos_osu180.lib
+.include nmos_osu180.lib
+m2 q1 q vdd vdd pfet W=0.66u L=0.18u M=1
+v1 q gnd  dc 0
+v2  vdd gnd 1.8v
+m3 qb q vdd vdd pfet W=0.66u L=0.18u M=1
+m4 qb q gnd gnd nfet W=0.6u L=0.18u M=1
+m5 q1 vdd vdd gnd nfet W=1.20u L=0.18u M=1
+m6 qb vdd gnd gnd nfet W=1.20u L=0.18u M=1
+m1 q1 q gnd gnd nfet W=0.6u L=0.18u M=1
+.dc v1 0e-00 1.8e-00 0.1e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+.endc
+.end
