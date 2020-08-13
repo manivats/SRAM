@@ -60,7 +60,7 @@ Steps to Download esim
  ## Steps for Waveform
  
  ### To see the waveform perform following steps
- 1. After downloading the esim open the terminal
+ 1. Open the terminal
  2. Move to the directory using `cd Folder_name` where you want to clone the repository
  3. Type `git clone https://github.com/manivats/SRAM.git`
  4. Type `cd SRAM`
