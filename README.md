@@ -164,7 +164,9 @@ plot q1 qb1
  ![en](https://user-images.githubusercontent.com/69419719/90009087-0f2fb000-dcbb-11ea-9a5e-39a8b849e9b0.PNG)
  ![q1_qb1](https://user-images.githubusercontent.com/69419719/90009082-0ccd5600-dcbb-11ea-8ee8-53610a054c23.PNG)
  
- ######## NOTE:- 1) Sensitivity is 100mV.
+ ###### NOTE:- 
+ 1) Sensitivity is 100mV.
+ 
  2) The correct output will we observed when `en` is high.
  
  ## Write Driver
