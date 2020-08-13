@@ -81,7 +81,7 @@ Steps to Download esim
 Type the following command after this `ngspice -->`in the terminal
 ``` html
 hold_curve.cir.out
-plot qb vs q q vs q1
+plot qb vs q q vs q1 q
 ```
 ![hold_curve](https://user-images.githubusercontent.com/69419719/89974244-1daca600-dc80-11ea-9a4b-7400266d459d.PNG)
 
@@ -92,7 +92,7 @@ plot qb vs q q vs q1
 Type the following command after this `ngspice -->`in the terminal
 ``` html
 read_curve.cir.out
-plot qb vs q q vs q1
+plot qb vs q q vs q1 q
 ```
  ![read_curve](https://user-images.githubusercontent.com/69419719/89974247-1f766980-dc80-11ea-848b-42c2e3538698.PNG)
  
@@ -104,7 +104,7 @@ plot qb vs q q vs q1
 Type the following command after this `ngspice -->`in the terminal
 ``` html
 write_curve.cir.out
-plot qb vs q q vs q1
+plot qb vs q q vs q1 q
 ``` 
  ![write curve](https://user-images.githubusercontent.com/69419719/89974250-200f0000-dc80-11ea-93c6-528ad29c0cb9.PNG)
 
