@@ -53,8 +53,12 @@
  - Required larger area.
  ### To see the waveform perform following steps
  1. After downloading the esim open the terminal
- 2. Move to the directory using `cd Folder_name` where you want to clone the repository.
- 3.Type `git clone 
+ 2. Move to the directory using `cd Folder_name` where you want to clone the repository
+ 3. Type `git clone git@github.com:manivats/SRAM.git`
+ 4. Type `cd SRAM`
+ 5. Type `cd Prelayout_simulation`
+ 6. Type `ngspice`
+ 7. Ngspice will open , for plot commands read the below text.
  
  ## Bitcell
 
@@ -65,7 +69,6 @@
  ### Hold Mode
  
  ![hold_cir](https://user-images.githubusercontent.com/69419719/89983647-8a7e6b00-dc95-11ea-91e1-c7b83f5f962e.PNG)
-
 
 Type the following command in the `ngspice window`
 ``` html
@@ -92,7 +95,20 @@ plot qb vs q q vs q1
 plot qb vs q q vs q1
 ``` 
  ![write curve](https://user-images.githubusercontent.com/69419719/89974250-200f0000-dc80-11ea-93c6-528ad29c0cb9.PNG)
- 
+
+## SNM Calculation
+SNM helps us to analyse the stability of SRAM.It is defined as the least noise voltage needed to flip the cell state.Easiest way to calculate SNM is by Butterfly Curve.
+###### Hold SNM & Read SNM
+
+1)make the maximum possible size squares which can be fitted in the lower and upper part of the curve.
+2)take the largest side of both squares.
+3)SNM will be the minimum of two largest sides of square.
+
+###### Write SNM
+
+1) Make a maximum size square in the upper part of curve.
+2) SNM will be the smallest side of square.
+
  ### SNM calculated table
  
  | NMOS | PMOS | ACCESS | HOLD SNM | READ SNM |
@@ -107,6 +123,15 @@ plot qb vs q q vs q1
  ##### PMOS Precharge circuit
  
  ![precharge](https://user-images.githubusercontent.com/69419719/89909294-89edc200-dc0c-11ea-8f4b-48fff17b5cbb.PNG)
+ 
+  Type the following command after this `ngspice-->` in terminal
+``` html
+pre_charge.cir.out
+plot pr_en
+plot bl
+plot blb
+``` 
+ 
  ![pr_en](https://user-images.githubusercontent.com/69419719/90015857-cbdb3e80-dcc6-11ea-8c53-51c1a65f08ca.PNG)
  ![bl](https://user-images.githubusercontent.com/69419719/90015848-caaa1180-dcc6-11ea-806f-c7c54e6ffa86.PNG)
  ![blb](https://user-images.githubusercontent.com/69419719/90015851-cb42a800-dcc6-11ea-98f7-c033d9de7f04.PNG)
