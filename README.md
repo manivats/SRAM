@@ -8,16 +8,23 @@ Steps to Download esim
  3. Installation guide for Windows [Click here](https://script.spoken-tutorial.org/index.php/ESim/C2/Getting-started-with-eSim-Windows-installation/English)
  
  ## Contents
- - [Definition](https://github.com/manivats/SRAM)
+ - [Introduction](https://github.com/manivats/SRAM)
+        - Modes of Operation
+        - Advantage
+        - Disadvantage
+ - [Steps for Waveform](https://github.com/manivats/SRAM) 
+ - [SNM Calculation](https://github.com/manivats/SRAM)
  - [Bitcell](https://github.com/manivats/SRAM)
  - [Precharge Circuit](https://github.com/manivats/SRAM)
  - [Sense Amplifier](https://github.com/manivats/SRAM)
  - [Write Driver](https://github.com/manivats/SRAM)
  - [Trigate](https://github.com/manivats/SRAM) 
  - [Read operation](https://github.com/manivats/SRAM)
+ - [Contributors](https://github.com/manivats/SRAM)
+ - [Contact information](https://github.com/manivats/SRAM)
  
  
- ## Definition
+ ## Introduction
  SRAM (Static Random Access Memory)
  
  It is a random access memory that has a access time independent of the physical location of the data.
@@ -52,6 +59,9 @@ Steps to Download esim
  
  - Uses more power 
  - Required larger area.
+ 
+ ## Steps for Waveform
+ 
  ### To see the waveform perform following steps
  1. After downloading the esim open the terminal
  2. Move to the directory using `cd Folder_name` where you want to clone the repository
@@ -103,13 +113,13 @@ plot qb vs q q vs q1
 
 ## SNM Calculation
 SNM helps us to analyse the stability of SRAM.It is defined as the least noise voltage needed to flip the cell state.Easiest way to calculate SNM is by Butterfly Curve.
-###### Hold SNM & Read SNM
+### Hold SNM & Read SNM
 
 1)make the maximum possible size squares which can be fitted in the lower and upper part of the curve.
 2)take the largest side of both squares.
 3)SNM will be the minimum of two largest sides of square.
 
-###### Write SNM
+### Write SNM
 
 1) Make a maximum size square in the upper part of curve.
 2) SNM will be the smallest side of square.
@@ -156,6 +166,7 @@ plot q1 qb1
  ![en](https://user-images.githubusercontent.com/69419719/90009087-0f2fb000-dcbb-11ea-9a5e-39a8b849e9b0.PNG)
  ![q1_qb1](https://user-images.githubusercontent.com/69419719/90009082-0ccd5600-dcbb-11ea-8ee8-53610a054c23.PNG)
  
+ ######## NOTE:- Sensitivity is 100mV
  
  ## Write Driver
  ![write_driver](https://user-images.githubusercontent.com/69419719/89909307-8c501c00-dc0c-11ea-8ef9-d22f875c1ce1.PNG)
