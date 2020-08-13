@@ -8,12 +8,7 @@ Steps to Download esim
  3. Installation guide for Windows [Click here](https://script.spoken-tutorial.org/index.php/ESim/C2/Getting-started-with-eSim-Windows-installation/English)
  
  ## Contents
- - [Introduction](https://github.com/manivats/SRAM)
- 
-        1. [Modes of Operation](https://github.com/manivats/SRAM)
-        2. [Advantage](https://github.com/manivats/SRAM)
-        3. [Disadvantage](https://github.com/manivats/SRAM)
-        
+ - [Introduction](https://github.com/manivats/SRAM)       
  - [Steps for Waveform](https://github.com/manivats/SRAM) 
  - [SNM Calculation](https://github.com/manivats/SRAM)
  - [Bitcell](https://github.com/manivats/SRAM)
