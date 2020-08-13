@@ -1,4 +1,4 @@
- # SRAM ( Description of 1-bit storage cell)
+ # SRAM(1024x32): (32kbits or 4KB), 1.8V and access time is <2.5ns
  
  The project is a description of all the necessary components used in making 1-bit 6T-SRAM cell and their analysis using the tool ESIM.
  
