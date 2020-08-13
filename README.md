@@ -64,9 +64,8 @@ Steps to Download esim
  2. Move to the directory using `cd Folder_name` where you want to clone the repository
  3. Type `git clone https://github.com/manivats/SRAM.git`
  4. Type `cd SRAM`
- 5. Type `cd Prelayout_simulation`
  6. Type `ngspice`
- 7. Ngspice will open , for plot commands read the below text.
+ 7. `ngspice ->` will show on the terminal , for plot commands read the below text.
  
  ## Bitcell
 
@@ -78,7 +77,7 @@ Steps to Download esim
  
  ![hold_cir](https://user-images.githubusercontent.com/69419719/89983647-8a7e6b00-dc95-11ea-91e1-c7b83f5f962e.PNG)
 
-Type the following command after this `ngspice -->`in the terminal
+Type the following command after this `ngspice ->`in the terminal
 ``` html
 hold_curve.cir.out
 plot qb vs q q vs q1 q
@@ -89,7 +88,7 @@ plot qb vs q q vs q1 q
  
  ![read_cir_curve](https://user-images.githubusercontent.com/69419719/89909295-89edc200-dc0c-11ea-9f9a-d806897353f2.PNG)
  
-Type the following command after this `ngspice -->`in the terminal
+Type the following command after this `ngspice ->`in the terminal
 ``` html
 read_curve.cir.out
 plot qb vs q q vs q1 q
@@ -101,7 +100,7 @@ plot qb vs q q vs q1 q
  ![write_cir _curve](https://user-images.githubusercontent.com/69419719/89909305-8c501c00-dc0c-11ea-8db6-184161ff8110.PNG)
  
  
-Type the following command after this `ngspice -->`in the terminal
+Type the following command after this `ngspice ->`in the terminal
 ``` html
 write_curve.cir.out
 plot qb vs q q vs q1 q
@@ -136,7 +135,7 @@ SNM helps us to analyse the stability of SRAM.It is defined as the least noise v
  
  ![precharge](https://user-images.githubusercontent.com/69419719/89909294-89edc200-dc0c-11ea-8f4b-48fff17b5cbb.PNG)
  
-  Type the following command after this `ngspice-->` in terminal
+  Type the following command after this `ngspice ->` in terminal
 ``` html
 pre_charge.cir.out
 plot pr_en
@@ -151,7 +150,7 @@ plot blb
  ## Sense Amplifier
  ![sense_amp](https://user-images.githubusercontent.com/69419719/90015170-de08ad00-dcc5-11ea-8919-000ffcd64db9.PNG)
  
-   Type the following command after this `ngspice-->` in terminal
+   Type the following command after this `ngspice ->` in terminal
 ``` html
 sense_amplifier.cir.out
 plot bl blb
@@ -163,12 +162,13 @@ plot q1 qb1
  ![en](https://user-images.githubusercontent.com/69419719/90009087-0f2fb000-dcbb-11ea-9a5e-39a8b849e9b0.PNG)
  ![q1_qb1](https://user-images.githubusercontent.com/69419719/90009082-0ccd5600-dcbb-11ea-8ee8-53610a054c23.PNG)
  
- ######## NOTE:- Sensitivity is 100mV
+ ######## NOTE:- 1) Sensitivity is 100mV.
+ 2) The correct output will we observed when `en` is high.
  
  ## Write Driver
  ![write_driver](https://user-images.githubusercontent.com/69419719/89909307-8c501c00-dc0c-11ea-8ef9-d22f875c1ce1.PNG)
    
-   Type the following command after this `ngspice-->` in terminal
+   Type the following command after this `ngspice ->` in terminal
 ``` html
 write_driver.cir.out
 plot din_dinb
@@ -185,7 +185,7 @@ plot bl blb
  
  ![trigate](https://user-images.githubusercontent.com/69419719/89909302-8bb78580-dc0c-11ea-86f3-6abc316a718f.PNG)
  
-   Type the following command after this `ngspice-->` in terminal
+   Type the following command after this `ngspice ->` in terminal
 ``` html
 trigate.cir.out
 plot in in_inv
@@ -203,7 +203,7 @@ plot out
 ![2half_read](https://user-images.githubusercontent.com/69419719/90018617-d4ce0f00-dcca-11ea-9581-38bc5353a5ee.PNG)
 
 
-  Type the following command after this `ngspice-->` in terminal
+  Type the following command after this `ngspice ->` in terminal
 ``` html
 read_operation.cir.out
 plot wl pr_en
@@ -214,11 +214,13 @@ plot q1 qb1
 ```
  
  ![wl pr_en](https://user-images.githubusercontent.com/69419719/89995643-5ca22200-dca7-11ea-927e-1817bb162570.PNG)
- ![q qb](https://user-images.githubusercontent.com/69419719/89995637-5b70f500-dca7-11ea-8119-90072cc0f241.PNG)
- 
+ ![q qb](https://user-images.githubusercontent.com/69419719/89995637-5b70f500-dca7-11ea-8119-90072cc0f241.PNG) 
 ![bl_blb](https://user-images.githubusercontent.com/69419719/89995628-5a3fc800-dca7-11ea-8579-f182a5a2799e.PNG)
 ![en](https://user-images.githubusercontent.com/69419719/89995636-5ad85e80-dca7-11ea-92b8-457668c970f0.PNG)
 ![q1 qb1](https://user-images.githubusercontent.com/69419719/89995639-5c098b80-dca7-11ea-903c-19cd5933158f.PNG)
+
+###### NOTE :- 
+1) The correct output will we observed when `en` is high.
 
 
 # Contributors
