@@ -1,4 +1,4 @@
- # SRAM(1024x32): (32kbits or 4KB), 1.8V and access time is <2.5ns
+ # SRAM(1024x32): (32kbits or 4KB), 1.8V and access time is <2.5ns(OpenRAM)
  
  The project is a description of all the necessary components used in making 1-bit 6T-SRAM cell and their analysis using the tool ESIM on the technology node osu180nm.
 
@@ -77,7 +77,7 @@ Steps to Download esim
  
  ![hold_cir](https://user-images.githubusercontent.com/69419719/89983647-8a7e6b00-dc95-11ea-91e1-c7b83f5f962e.PNG)
 
-Type the following command after this `ngspice ->`in the terminal
+Type the following command after this `ngspice 1 ->`in the terminal
 ``` html
 hold_curve.cir.out
 plot qb vs q q vs q1 q
@@ -88,7 +88,7 @@ plot qb vs q q vs q1 q
  
  ![read_cir_curve](https://user-images.githubusercontent.com/69419719/89909295-89edc200-dc0c-11ea-9f9a-d806897353f2.PNG)
  
-Type the following command after this `ngspice ->`in the terminal
+Type the following command after this `ngspice 1 ->`in the terminal
 ``` html
 read_curve.cir.out
 plot qb vs q q vs q1 q
@@ -100,7 +100,7 @@ plot qb vs q q vs q1 q
  ![write_cir _curve](https://user-images.githubusercontent.com/69419719/89909305-8c501c00-dc0c-11ea-8db6-184161ff8110.PNG)
  
  
-Type the following command after this `ngspice ->`in the terminal
+Type the following command after this `ngspice 1 ->`in the terminal
 ``` html
 write_curve.cir.out
 plot qb vs q q vs q1 q
@@ -129,13 +129,14 @@ SNM helps us to analyse the stability of SRAM.It is defined as the least noise v
  | 0.7u | 0.35u | 0.35u | 0.61v | 0.35v | 
  | 0.36u | 0.9u | 0.27u | 0.6v | 0.4v |
  | 1.20u | 0.66u | 0.60u | 0.62v | 0.38v |
+ ##### NOTE:- The above curves have the last row parameters
  
  ## Precharge Circuit
  ##### PMOS Precharge circuit
  
  ![precharge](https://user-images.githubusercontent.com/69419719/89909294-89edc200-dc0c-11ea-8f4b-48fff17b5cbb.PNG)
  
-  Type the following command after this `ngspice ->` in terminal
+  Type the following command after this `ngspice 1 ->` in terminal
 ``` html
 pre_charge.cir.out
 plot pr_en
@@ -150,7 +151,7 @@ plot blb
  ## Sense Amplifier
  ![sense_amp](https://user-images.githubusercontent.com/69419719/90015170-de08ad00-dcc5-11ea-8919-000ffcd64db9.PNG)
  
-   Type the following command after this `ngspice ->` in terminal
+   Type the following command after this `ngspice 1 ->` in terminal
 ``` html
 sense_amplifier.cir.out
 plot bl blb
@@ -173,7 +174,7 @@ plot q1 qb1
 
  
  
-   Type the following command after this `ngspice ->` in terminal
+   Type the following command after this `ngspice 1 ->` in terminal
 ``` html
 write_driver.cir.out
 plot din_dinb
@@ -190,7 +191,7 @@ plot bl blb
  
  ![trigate](https://user-images.githubusercontent.com/69419719/89909302-8bb78580-dc0c-11ea-86f3-6abc316a718f.PNG)
  
-   Type the following command after this `ngspice ->` in terminal
+   Type the following command after this `ngspice 1 ->` in terminal
 ``` html
 trigate.cir.out
 plot in in_inv
@@ -217,7 +218,7 @@ PART-2
 ![2half_read](https://user-images.githubusercontent.com/69419719/90018617-d4ce0f00-dcca-11ea-9581-38bc5353a5ee.PNG)
 
 
-  Type the following command after this `ngspice ->` in terminal
+  Type the following command after this `ngspice 1 ->` in terminal
 ``` html
 read_operation.cir.out
 plot wl pr_en
