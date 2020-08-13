@@ -10,9 +10,9 @@ Steps to Download esim
  ## Contents
  - [Introduction](https://github.com/manivats/SRAM)
  
-        - [Modes of Operation](https://github.com/manivats/SRAM)
-        - [Advantage](https://github.com/manivats/SRAM)
-        - [Disadvantage](https://github.com/manivats/SRAM)
+        1. [Modes of Operation](https://github.com/manivats/SRAM)
+        2. [Advantage](https://github.com/manivats/SRAM)
+        3. [Disadvantage](https://github.com/manivats/SRAM)
         
  - [Steps for Waveform](https://github.com/manivats/SRAM) 
  - [SNM Calculation](https://github.com/manivats/SRAM)
