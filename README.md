@@ -64,10 +64,9 @@ Steps to Download esim
  2. Install Ngspice if you don't have `sudo apt get install ngspice`
  2. Move to the directory using `cd Folder_name` where you want to clone the repository
  3. Type `git clone https://github.com/manivats/SRAM.git`
- 4. Type `cd SRAM`
- 5. Type `cd Prelayout_simulation`
- 6. Type `ngspice`
- 7. `ngspice 1 ->` will show on the terminal , for plot commands read the below text.
+ 4. Type `cd SRAM/Prelayout_simulation`
+ 5. Type `ngspice`
+ 6. `ngspice 1 ->` will show on the terminal , for plot commands read the below text.
  
  ## Bitcell
 
