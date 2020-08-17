@@ -34,20 +34,6 @@ Steps to Download esim
  - Master slave DFF
  - Trigate
  
- 
- ## Modes of Operation
- 
- ### Standby Mode/ Hold Mode
- 
- The word line is not active and the bitcell will retain the value.
- 
- ### Read Mode 
- Intially the bit line and bit bar line is precharged to Vdd.The word line is made active and bit line or bit line bar changes value according to the values present at q & qb.Sense amplifier senses the values at bl & blb and produced the desired output.
- 
- ### Write Mode
- The bl & blb are precharged to Vdd. Whatever value we want to write into the cell should be present at bl. Using write drive we make bl/blb ,0/1.  
- 
- 
  ## Advantage of SRAM over DRAM
  
  Faster because periodic refreshing is not required.
@@ -71,6 +57,21 @@ Steps to Download esim
  ## Bitcell
 
 ![bitcell](https://user-images.githubusercontent.com/69419719/89906113-996b0c00-dc08-11ea-8896-fc0470bd273f.PNG)
+
+## Modes of Operation
+ 
+ ### Standby Mode/ Hold Mode
+ 
+ The word line is not active and the bitcell will retain the value.
+ 
+ ### Read Mode 
+ Intially the bit line and bit bar line is precharged to Vdd.The word line is made active and bit line or bit line bar changes value according to the values present at q & qb.Sense amplifier senses the values at bl & blb and produced the desired output.
+ 
+ ### Write Mode
+ The bl & blb are precharged to Vdd. Whatever value we want to write into the cell should be present at bl. Using write drive we make bl/blb ,0/1.  
+ 
+
+
 
  Below are the circuits and curves for hold , read and write mode without feedback connections to calculate SNM.
  
